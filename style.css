@@ -174,8 +174,12 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  filter: grayscale(100%);
+  
 }
-
+.section__pic-container img{
+  border-radius: 50px;
+}
 .section__text {
   align-self: center;
   text-align: center;

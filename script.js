@@ -4,3 +4,4 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+document.getElementById("currentYear").innerText = new Date().getFullYear();
